@@ -35,5 +35,29 @@ Person konatsu=new Person();
 		konatsu.address="ddd@jp";
 
 		System.out.println(konatsu.name+","+konatsu.age+","+konatsu.phoneNumber+","+konatsu.address);
+
+
+		Robot aibo=new Robot();
+		aibo.name="aibo";
+
+		aibo.talk();
+		aibo.walk();
+		aibo.run();
+
+		Robot asimo=new Robot();
+		asimo.name="asimo";
+
+		asimo.talk();
+		asimo.walk();
+		asimo.run();
+
+		Robot pepper=new Robot();
+		pepper.name="pepper";
+
+		pepper.talk();
+		pepper.walk();
+		pepper.run();
 	}
+
 }
+
