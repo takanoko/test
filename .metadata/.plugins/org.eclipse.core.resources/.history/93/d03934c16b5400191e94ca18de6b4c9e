@@ -1,0 +1,5 @@
+
+public class Android {
+	public static void sub(String[] args);
+
+}
