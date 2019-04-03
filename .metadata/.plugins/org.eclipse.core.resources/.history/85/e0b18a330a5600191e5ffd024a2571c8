@@ -1,0 +1,8 @@
+
+public class Test {
+	public static void main(String[] args){
+		TestUserDAO2 dao=new TestUserDAO2();
+		dao.select("taro","123");
+	}
+
+}
