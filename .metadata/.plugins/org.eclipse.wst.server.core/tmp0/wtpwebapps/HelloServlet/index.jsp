@@ -10,8 +10,9 @@
 
 <input type="button" value="HelloServlet" onClick="location.href='HelloServlet'">
 <input type="button" value="WekcomeServlet" onClick="location.href='welcome.jsp'">
-<input type="button" value="問い合わせ" onClick="location.href='inquiry.jsp'"><br>
-GET通信
+<input type="button" value="問い合わせ" onClick="location.href='inquiry.jsp'">
+<input type="button" value="MySQLServlet" onClick="location.href='MySQLServlet'">
+<br>GET通信
 <form method="get" action="TestServlet">
 <input type="text" name="username">
 <input type="password" name="password">
