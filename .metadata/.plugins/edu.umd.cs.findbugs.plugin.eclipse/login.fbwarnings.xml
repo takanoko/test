@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="3.0.1" sequence="1" timestamp="1555504375327" analysisTimestamp="1555504359204" release="">
+  <Project projectName="login">
+    <Jar>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\build\classes</Jar>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\build\classes</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\annotations-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ant.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-ha.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-storeconfig.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina-tribes.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\catalina.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\ecj-4.4.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\el-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper-el.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jasper.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\jsp-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\servlet-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-coyote.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-dbcp.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-es.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-fr.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-i18n-ja.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jdbc.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-jni.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util-scan.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-util.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\tomcat-websocket.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\tomcat\8\lib\websocket-api.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\commons-fileupload-1.4.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\commons-io-2.6.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\commons-lang3-3.8.1.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\commons-logging-1.2.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\freemarker-2.3.28.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\javassist-3.20.0-GA.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\mysql-connector-java-5.1.47-bin.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\ognl-3.1.21.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\struts2-core-2.5.20.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\WebContent\WEB-INF\lib\xwork-core-2.3.36.jar</AuxClasspathEntry>
+    <AuxClasspathEntry>C:\pleiades\java\8\jre\lib\rt.jar</AuxClasspathEntry>
+    <SrcDir>C:\Users\testuser\Desktop\workspace\workspace-takano\test\login\src</SrcDir>
+    <Cloud id="edu.umd.cs.findbugs.cloud.doNothingCloud" online="false"></Cloud>
+  </Project>
+  <BugInstance type="DLS_DEAD_LOCAL_STORE" priority="2" rank="17" abbrev="DLS" category="STYLE" first="1">
+    <Class classname="com.internousdev.login.action.LoginAction">
+      <SourceLine classname="com.internousdev.login.action.LoginAction" sourcefile="LoginAction.java" sourcepath="com/internousdev/login/action/LoginAction.java"/>
+    </Class>
+    <Method classname="com.internousdev.login.action.LoginAction" name="execute" signature="()Ljava/lang/String;" isStatic="false">
+      <SourceLine classname="com.internousdev.login.action.LoginAction" start="13" end="25" startBytecode="0" endBytecode="32" sourcefile="LoginAction.java" sourcepath="com/internousdev/login/action/LoginAction.java"/>
+    </Method>
+    <LocalVariable name="dto" register="3" pc="19" role="LOCAL_VARIABLE_NAMED"/>
+    <SourceLine classname="com.internousdev.login.action.LoginAction" start="16" end="16" startBytecode="18" endBytecode="18" sourcefile="LoginAction.java" sourcepath="com/internousdev/login/action/LoginAction.java"/>
+    <SourceLine classname="com.internousdev.login.action.LoginAction" start="16" end="16" startBytecode="18" endBytecode="18" sourcefile="LoginAction.java" sourcepath="com/internousdev/login/action/LoginAction.java"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.DEAD_OBJECT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.KILLED_BY_SUBSEQUENT_STORE" value="true"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.LOCAL_NAME" value="dto"/>
+    <Property name="edu.umd.cs.findbugs.detect.DeadLocalStoreProperty.METHOD_RESULT" value="true"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.login.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.login.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/login/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="12" end="31" startBytecode="0" endBytecode="407" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.ResultSet" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.ResultSet" sourcefile="ResultSet.java" sourcepath="java/sql/ResultSet.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="21" end="21" startBytecode="59" endBytecode="59" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="22" end="22" startBytecode="66" endBytecode="66" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="29" end="29" startBytecode="134" endBytecode="134" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="31" end="31" startBytecode="141" endBytecode="141" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="OBL_UNSATISFIED_OBLIGATION" priority="2" rank="20" abbrev="OBL" category="EXPERIMENTAL" first="1">
+    <Class classname="com.internousdev.login.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.login.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/login/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="12" end="31" startBytecode="0" endBytecode="407" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Method>
+    <Class classname="java.sql.Statement" role="CLASS_REFTYPE">
+      <SourceLine classname="java.sql.Statement" sourcefile="Statement.java" sourcepath="java/sql/Statement.java"/>
+    </Class>
+    <Int value="1" role="INT_OBLIGATIONS_REMAINING"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="18" end="18" startBytecode="32" endBytecode="32" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_OBLIGATION_CREATED"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="19" end="19" startBytecode="39" endBytecode="39" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="20" end="20" startBytecode="48" endBytecode="48" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="21" end="21" startBytecode="57" endBytecode="57" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="22" end="22" startBytecode="66" endBytecode="66" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="29" end="29" startBytecode="134" endBytecode="134" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="31" end="31" startBytecode="141" endBytecode="141" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java" role="SOURCE_LINE_PATH_CONTINUES"/>
+    <String value="{Statement x 1,ResultSet x 1}" role="STRING_REMAINING_OBLIGATIONS"/>
+  </BugInstance>
+  <BugInstance type="ODR_OPEN_DATABASE_RESOURCE" priority="2" rank="16" abbrev="ODR" category="BAD_PRACTICE" first="1">
+    <Class classname="com.internousdev.login.dao.LoginDAO">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Class>
+    <Method classname="com.internousdev.login.dao.LoginDAO" name="select" signature="(Ljava/lang/String;Ljava/lang/String;)Lcom/internousdev/login/dto/LoginDTO;" isStatic="false">
+      <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="12" end="31" startBytecode="0" endBytecode="56" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    </Method>
+    <Type descriptor="Ljava/sql/PreparedStatement;" role="TYPE_CLOSEIT">
+      <SourceLine classname="java.sql.PreparedStatement" start="1265" end="1318" sourcefile="PreparedStatement.java" sourcepath="java/sql/PreparedStatement.java"/>
+    </Type>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="18" end="18" startBytecode="32" endBytecode="32" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+    <SourceLine classname="com.internousdev.login.dao.LoginDAO" start="18" end="18" startBytecode="32" endBytecode="32" sourcefile="LoginDAO.java" sourcepath="com/internousdev/login/dao/LoginDAO.java"/>
+  </BugInstance>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Wed, 17 Apr 2019 21:31:41 +0900" total_classes="7" referenced_classes="40" total_bugs="4" total_size="90" num_packages="4" java_version="1.8.0_74" vm_version="25.74-b02" cpu_seconds="19.78" clock_seconds="16.13" peak_mbytes="1866.95" alloc_mbytes="116508.50" gc_seconds="0.59" priority_2="4">
+    <PackageStats package="com.internousdev.login.action" total_bugs="1" total_types="2" total_size="25" priority_2="1">
+      <ClassStats class="com.internousdev.login.action.LoginAction" sourceFile="LoginAction.java" interface="false" size="24" bugs="1" priority_2="1"/>
+      <ClassStats class="com.internousdev.login.action.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.login.dao" total_bugs="3" total_types="2" total_size="22" priority_2="3">
+      <ClassStats class="com.internousdev.login.dao.LoginDAO" sourceFile="LoginDAO.java" interface="false" size="21" bugs="3" priority_2="3"/>
+      <ClassStats class="com.internousdev.login.dao.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.login.dto" total_bugs="0" total_types="2" total_size="22">
+      <ClassStats class="com.internousdev.login.dto.LoginDTO" sourceFile="LoginDTO.java" interface="false" size="21" bugs="0"/>
+      <ClassStats class="com.internousdev.login.dto.package-info" sourceFile="package-info.java" interface="true" size="1" bugs="0"/>
+    </PackageStats>
+    <PackageStats package="com.internousdev.login.util" total_bugs="0" total_types="1" total_size="21">
+      <ClassStats class="com.internousdev.login.util.DBConnector" sourceFile="DBConnector.java" interface="false" size="21" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="847" invocations="411" avgMicrosecondsPerInvocation="2061" maxMicrosecondsPerInvocation="299341" standardDeviationMircosecondsPerInvocation="15987"/>
+      <ClassProfile name="de.tobject.findbugs.builder.FindBugs2Eclipse" totalMilliseconds="765" invocations="2" avgMicrosecondsPerInvocation="382847" maxMicrosecondsPerInvocation="616533" standardDeviationMircosecondsPerInvocation="233686"/>
+      <ClassProfile name="edu.umd.cs.findbugs.OpcodeStack$JumpInfoFactory" totalMilliseconds="731" invocations="145" avgMicrosecondsPerInvocation="5048" maxMicrosecondsPerInvocation="528576" standardDeviationMircosecondsPerInvocation="44306"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="338" invocations="377" avgMicrosecondsPerInvocation="897" maxMicrosecondsPerInvocation="298915" standardDeviationMircosecondsPerInvocation="15372"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.bcel.MethodGenFactory" totalMilliseconds="147" invocations="18" avgMicrosecondsPerInvocation="8179" maxMicrosecondsPerInvocation="139267" standardDeviationMircosecondsPerInvocation="31805"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="141" invocations="40" avgMicrosecondsPerInvocation="3547" maxMicrosecondsPerInvocation="51388" standardDeviationMircosecondsPerInvocation="9115"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="115" invocations="40" avgMicrosecondsPerInvocation="2888" maxMicrosecondsPerInvocation="45150" standardDeviationMircosecondsPerInvocation="7543"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="110" invocations="417" avgMicrosecondsPerInvocation="265" maxMicrosecondsPerInvocation="10874" standardDeviationMircosecondsPerInvocation="557"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History>
+    <AppVersion sequence="0" timestamp="1555504375323" release="" codeSize="0" numClasses="0"/>
+  </History>
+</BugCollection>
