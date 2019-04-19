@@ -4,8 +4,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<title>ログイン画面</title>
+	<meta charset="utf-8">
+	<title>ログイン画面</title>
 </head>
 <body>
 	<s:form action="LoginAction">
